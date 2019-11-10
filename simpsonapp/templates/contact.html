@@ -1,0 +1,55 @@
+
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+ <div class="col-md-12 baslik" >
+                       <center>Contact</center>
+ </div>
+
+    <div class="col-md-12 yazi" style="margin-top: 34px" >
+        <br><center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49766.86818574949!2d-77.
+                            21173861888758!3d38.776792638844675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b
+                            64de885e53a9d%3A0x67e76f2416faa504!2sSpringfield%2C%20Virginia%2C%20Amerika%20Birle%C5%9Fik%2
+                            0Devletleri!5e0!3m2!1str!2str!4v1573230542513!5m2!1str!2str"
+
+                            width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+-
+    </div>  <br><br>
+
+
+
+
+    <div class="col-lg-4">
+     <center>
+         <img src="https://image.flaticon.com/icons/png/512/64/64113.png" class="yazi" style="width: 30px;height: 30px"> <br>
+         Springfield</center></div>
+    <div class="col-lg-4">
+        <center>
+            <img src="https://image.flaticon.com/icons/png/512/9/9243.png" class="yazi" style="width: 30px;height: 30px"> <br>
+            +00 00 111 1111</center></div>
+    <div class="col-lg-4">
+        <center>
+            <img src="https://cdn4.iconfinder.com/data/icons/eldorado-work/40/mail-512.png" class="yazi" style="width: 34px;height: 34px"> <br>
+            hello@springfield.com</center></div>
+
+
+    <div class="col-md-12 " style="color: #002141; margin-left: 0px; margin-top: 20px" >
+                       <center> <h2>Write to us!</h2>
+                        <br>
+
+    <form role="form" action="" method="post" class="">
+        {% csrf_token %} </br>
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-default submit2">Submit</button>
+
+    </form></center>
+
+    </div>
+
+
+
+
+{% endblock %}

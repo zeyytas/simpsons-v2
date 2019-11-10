@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="postgres@localhost" uuid="94ad7c1a-ce08-4c0e-afd8-a30368f384e8">
+      <database-info product="PostgreSQL" version="11.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" family="POSTGRES" exact-version="11.5">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <introspection-schemas>@:@|simpsons:@,public</introspection-schemas>
+    </data-source>
+    <data-source name="Django default" uuid="d1fde2af-ec71-4c25-a886-9729040025b7">
+      <database-info product="PostgreSQL" version="11.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" family="POSTGRES" exact-version="11.5">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>zeyneptas</user-name>
+      <introspection-schemas>@:@</introspection-schemas>
+    </data-source>
+  </component>
+</project>

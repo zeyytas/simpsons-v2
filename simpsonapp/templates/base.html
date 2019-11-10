@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+
+    <meta charset="utf-8">
+    {% block title %}{% endblock %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="{% static 'css/homer.css' %}"/>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function aud_play_pause() {
+            var myAudio = document.getElementById("myAudio");
+            if (myAudio.paused) {
+                myAudio.play();
+            } else {
+                myAudio.pause();
+            }
+        }
+    </script>
+</head>
+
+<body>
+{% block body %}
+
+<section class="bg-primary" id="about">
+
+    <div class="container  backg">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navbar  navbar-inner ">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="{% url 'home' %}" style="color: #003e66"><strong>SIMPSONS</strong></a>
+
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="{% url 'characters' %}">Characters <span class="sr-only">(current)</span></a></li>
+                            </ul>
+
+
+                            <form action="/result" method="get"  class="navbar-form navbar-left">
+                                <div class="form-group">
+                                    <input name="q" type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button type="submit" class="btn btn-default" style="border: solid 1px rgba(0, 120, 195, 0.9);
+    background-color: rgba(255, 255, 255, 0.6); color:#0074b6">Submit</button>
+                            </form>
+
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="{% url 'contact' %}">Contact</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a target="_blank" href="{% url 'login' %}">Login</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="{% url 'contact' %}">Contact</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                </div>
+            </div>
+            </div>
+        </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 " style="padding-left: 0px; padding-right: 0px; ">
+                <center> <img class="img-responsive bg-banner"></center>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container  backg" style=" ">
+        <div class="row">
+            <div class="col-md-3">
+                <br>
+                <ul class="nav nav-pills nav-stacked well">
+                    <li><button type="button" class="btn submit2 " style="color: #005285" onclick="aud_play_pause()">Play/Pause</button></li>
+
+                    <li class=""><a href="{% url 'characters' %}">CHARACTERS <span class="sr-only">(current)</span></a></li>
+                    <li class=""><a target="_blank" href="{% url 'login' %}">LOGIN<span class="sr-only">(current)</span></a></li> <hr>
+
+
+                    <br><br><br>
+                </ul>
+            </div>
+            <div class="col-md-9" style="color: #0f0f0f">
+
+                {% block content %}
+                {% endblock %}
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <div class="footer son" id="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4  " style="background-color: rgba(246,206,0,0.65); height: 240px;">
+                    <br><br><br>
+<center>
+                    <li><a href="{% url 'characters' %}" class="footer_text" ><strong>Characters</strong></a></li>
+                    <li><a href="{% url 'contact' %}" class="footer_text"><strong>Contact</strong></a></li>
+</center>
+
+                </div>
+                <div class="col-lg-4 " style="background-color: rgba(246,206,0,0.65); height: 240px;">
+                    <br>     <br>     <br>
+
+                   <br><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                   <center><a target="_blank" href="https://twitter.com/twitter" class="fa fa-twitter"></a>
+
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <a style="margin-left: 10px" target="_blank" href="https://facebook.com/facebook" class="fa fa-facebook"></a></center>
+
+
+                </div>
+
+                <div class="col-lg-4 " style="background-color:rgba(246,206,0,0.65); height:240px;;">
+                    <br><br><br>
+                    <form action="" method="">
+                        <center>
+                        <div class="form-inline">
+                            <input type="email" placeholder="Email" class="form-control" style=" width: 160px; height: 35px;" id="email">
+                            <button type="submit"  value="Submit" id="button" class="btn " style="
+    margin: 10px;
+    width: 84px;
+    height: 35px;
+    z-index: 100;
+    display: inline-block;
+    padding: 0.5em;
+    border: solid 1px rgba(0, 120, 195, 0.9);
+    background-color: rgba(251, 251, 251, 0.6);">Subscribe</button>
+                        </div> </center>
+                        <br>
+                    </form>
+                </div>
+
+                <div class="col-lg-12" style="color: #ffffff">
+                    <center>
+                        © 2017 THE SIMPSONS CONSULTING. ALL RIGHTS RESERVED.</center>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <audio id="myAudio" src="../../static/music/sim.mp3" autoplay>
+        <p>If you are reading this, it is because your browser does not support the audio element. </p>
+        <embed src="../../static/music/sim.mp3" width="180" height="90" hidden="true" loop="False" autostart="true"/>
+    </audio>
+
+    <!-- Bootstrap'in JavaScript eklentilerini çalıştırabilmemiz için jQuery'yi belgemize dahil etmemiz gerekiyor -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap JS Dosyası(JavaScript eklentilerini kullanmayacaksak jQuery ve Bootstrap.js dosyasını dahil etmek zorunda değiliz) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+{% endblock %}
+</body>
+</html>

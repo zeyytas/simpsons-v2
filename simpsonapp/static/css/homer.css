@@ -1,0 +1,169 @@
+
+
+
+
+.daireclass {
+    background-color: #c06;
+    height: 150px;
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+    width: 150px;
+
+}
+
+.bg-banner{
+    background : url('/static/images/simpsons.jpg');
+    background-size:cover;
+    -webkit-background-size: cover;-o-background-size: cover;
+    background-position: center;
+    height: 240px;
+    width:100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 0 0px;
+}
+
+.myBtn{
+    margin: 30px;
+    position: fixed;
+    bottom: 33px;
+    right: 5px;
+    width: 42px;
+    height: 42px;
+    z-index: 100;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.5em;
+    border: solid 1px rgba(0, 120, 195, 0.9);
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.myBtn i {
+
+    font-size: 75px;
+
+
+    color: rgba(96, 0, 170, .9); }
+
+.grow {
+
+    transition: all .3s ease-in-out;
+
+}
+.bg-primary{
+    background-color: rgb(0, 62, 102);
+}
+
+.submit{
+
+    margin: 10px;
+    width: 64px;
+    height: 35px;
+    z-index: 100;
+    display: inline-block;
+    padding: 0.5em;
+    border: solid 1px rgba(0, 120, 195, 0.9);
+    background-color: rgba(251, 251, 251, 0.6);
+}
+
+.submit2{
+
+    margin: 10px;
+    width: 105px;
+    height: 35px;
+    z-index: 100;
+    display: inline-block;
+    padding: 0.5em;
+    border: solid 1px rgba(0, 120, 195, 0.9);
+    background-color: rgba(251, 251, 251, 0.6);
+}
+
+.backg{
+    background-color: white;
+}
+.backgforprofile{
+     background-color: #447e9b;
+
+}
+
+.grow:hover {
+
+    transform: scale(1.18);
+
+}
+
+.navbar-inner {
+    background-color:white;
+    text-decoration-color: rgba(47,49,255,0.6);
+    height: 100%;
+    margin: 0 0 0px;
+    padding-top: 0px;
+}
+.navbar-inverse {
+    background-color: white; }
+
+
+.bg-cover3{
+
+    background-size: cover;
+    background-position: center;
+    height:150px;
+    width: 150px;
+}
+
+
+.son{
+    background-color: #003e66;
+}
+
+.footer_text{
+    font-family: "Bell MT";
+    font-size: 18px;
+    color: #00172f;
+
+}
+
+.baslik {
+
+    font-family: "Calibri Light";
+    font-size: 42px;
+    color: #001123;
+    }
+
+.yazi{
+    font-family: "Bell MT";
+    font-size: 16px;
+    color: #003e66;
+}
+
+.gorselmap{
+    background-size: cover;
+    height:220px;
+    width: 310px;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+
+
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}

@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+
+    <meta charset="utf-8">
+    {% block title %}{% endblock %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS Dosyası-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="{% static 'css/homer.css' %}"/>
+
+
+</head>
+
+<body>
+{% block body %}
+
+<section class="" id="about">
+
+    <div class="container " style="">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navbar  navbar-inner ">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <p class="navbar-brand" style="color: #003e66"><strong>SIMPSONS</strong></p>
+
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+
+
+                            </ul>
+
+
+                        </div><!-- /.navbar-collapse -->
+
+                        </div><!-- /.container-fluid -->
+
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+ {% if 'login' in request.path %}
+    <div class="container" style="background-color: #91b3dd; height: 700px">
+        <div class="row">
+            <div class="col-md-12"></div>
+
+
+              <form  action="/login/"  method="post" style="margin-top: 100px; margin-left: 450px"  >
+
+              <strong><p style="margin-left: 67px; font-size: 30px;">Login</p></strong><br>
+
+              {% csrf_token %}
+              {{ form.as_p }}
+              <button type="submit" style="margin-left: 67px;" class="btn submit2 btn-default">Login</button> </br>
+                  <a href="/signup/"> Signup</a>
+                  {{ error }}
+              </form>
+
+
+
+            </div></div>
+
+    {% endif %}
+
+    {% if 'signup' in request.path %}
+    <div class="container" style="background-color: #91b3dd; height: 700px">
+        <div class="row">
+            <div class="col-md-12"></div>
+
+              <form  action="/signup/"  method="post" style="margin-top: 100px; margin-left: 450px"  >
+
+              <strong><p style="margin-left: 67px; font-size: 30px;">Signup</p></strong><br>
+
+              {% csrf_token %}
+              {{ form.as_p }}
+              <button type="submit" style="margin-left: 67px;" class="btn submit2 btn-default">Signup</button> </br>
+                   <a href="/login/"> Login</a>
+              </form>
+
+            </div> </div>
+
+    {% endif %}
+
+
+    <div class="container" style="height: 55px"><div class="row"><div class="col-md-12"></div> </div> </div>
+
+
+
+</section>
+
+
+    <!-- Bootstrap'in JavaScript eklentilerini çalıştırabilmemiz için jQuery'yi belgemize dahil etmemiz gerekiyor -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap JS Dosyası(JavaScript eklentilerini kullanmayacaksak jQuery ve Bootstrap.js dosyasını dahil etmek zorunda değiliz) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+{% endblock %}
+</body>
+</html>

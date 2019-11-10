@@ -1,0 +1,122 @@
+
+
+<!DOCTYPE html>
+
+
+
+{% load staticfiles %}
+
+
+
+<html xmlns="http://www.w3.org/1999/html">
+
+
+
+<head>
+
+
+
+    <meta charset="utf-8">
+
+    {% block title %}{% endblock %}
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+
+    <!-- Bootstrap CSS Dosyası-->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <title>404</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+
+
+    <link rel="stylesheet" href="{% static 'css/homer.css' %}"/>
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+{% block body %}
+
+
+
+<section  style=" background-image: url(../simpsonapp/static/images/404.jpg);
+
+      background-attachment: fixed;
+
+      -webkit-background-size: cover;
+
+      -moz-background-size: cover;
+
+      -o-background-size: cover;
+
+      background-size: cover ;
+
+      height: 725px;
+
+      width: 2080px;
+
+       background-position: center;" >
+
+
+
+ <dıv class="container">
+
+      <div class="row">
+
+          <div class="col-md-12 ">
+
+
+
+
+
+          </div>
+
+      </div>
+
+
+
+  </dıv>
+
+
+
+
+
+</section>
+
+
+
+
+
+    <!-- Bootstrap'in JavaScript eklentilerini çalıştırabilmemiz için jQuery'yi belgemize dahil etmemiz gerekiyor -->
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+
+    <!-- Bootstrap JS Dosyası(JavaScript eklentilerini kullanmayacaksak jQuery ve Bootstrap.js dosyasını dahil etmek zorunda değiliz) -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+{% endblock %}
+
+</body>
+
+</html>
+
