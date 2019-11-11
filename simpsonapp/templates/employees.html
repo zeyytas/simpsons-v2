@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block content %}
+
+     <div class="col-md-12 headline" >
+     <center><div style="margin-top: 60px">Characters </div></center>
+     </div>
+
+    <div class="row">
+    <div class="col-md-12 text_css" style="height: 700px; background-color: white;
+    margin-top: 15px; margin-bottom: 30px; margin-left: 30px;" >
+
+
+        {% if not request.GET %}
+            <div class="col-md-12" >
+            {% for character in characters %}
+                {% if forloop.first %}
+                    <div class="col-md-3 col-xs-12 text_css" style="margin-bottom: 50px;">
+                {% endif %}
+            <center>
+                <a href="/characters?id={{character.id}}">
+                    <img src="/media/{{ character.image }}" class="image_css"> </img></a><br>
+                <strong> {{ character.name }}</strong><br>
+                {{ character.position }}
+            </center>
+            {% if forloop.counter|divisibleby:"3" %}
+                </div>
+                {% if not forloop.last %}
+                    <div class="col-md-3 col-xs-12 text_css" style="margin-bottom: 50px;">
+                {% endif %}
+            {% endif %}
+
+            {% endfor %}
+            </div>
+            </div>
+
+        {% else %}
+
+            <div class="col-md-12 headline_text">
+                {{character.name}} / <small><small>{{character.position}}</small></small></p></p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="/media/{{ character.image_2 }}" class="image_2_css"> </img></a>
+            </div>
+
+            <div class="col-md-7">
+                <p class="sub_headline">Info</p>
+                <p class="text_css" > {{character.info}}</p>
+
+                <p class="sub_headline"> Likes</p>
+                <p class="text_css" >{{character.likes}}</p>
+            </div>
+
+        {%  endif %}
+
+
+
+</div></div>
+
+{% endblock %}

@@ -11,6 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 
     <title>Welcome</title>
@@ -52,7 +53,7 @@
 
 <section class="bg-primary" id="about">
 
-    <div class="container  backg">
+
         <div class="row">
             <div class="col-md-12">
                 <div class="navbar  navbar-inner ">
@@ -84,7 +85,8 @@
 
 
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="{% url 'contact' %}">Contact</a></li>
+                                <li><button type="button" class="btn submit2 " style="color: #005285" onclick="aud_play_pause()">Play/Pause</button></li>
+
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
@@ -101,70 +103,46 @@
                 </div>
             </div>
             </div>
-        </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 " style="padding-left: 0px; padding-right: 0px; ">
-                <center> <img class="img-responsive bg-banner"></center>
-            </div>
-        </div>
+
+
+
+
+
+    <div class="row", style="background-color: white;">
+
+            {% block content %}
+            {% endblock %}
+
     </div>
 
 
-    <div class="container  backg" style=" ">
-        <div class="row">
-            <div class="col-md-3">
-                <br>
-                <ul class="nav nav-pills nav-stacked well">
-                    <li><button type="button" class="btn submit2 " style="color: #005285" onclick="aud_play_pause()">Play/Pause</button></li>
-
-                    <li class=""><a href="{% url 'characters' %}">CHARACTERS <span class="sr-only">(current)</span></a></li>
-                    <li class=""><a target="_blank" href="{% url 'login' %}">LOGIN<span class="sr-only">(current)</span></a></li> <hr>
-
-
-                    <br><br><br>
-                </ul>
-            </div>
-            <div class="col-md-9" style="color: #0f0f0f">
-
-                {% block content %}
-                {% endblock %}
-
-            </div>
-            </div>
-        </div>
-    </div>
-
-</section>
 
     <div class="footer son" id="footer">
-        <div class="container">
             <div class="row">
 
-                <div class="col-lg-4  " style="background-color: rgba(246,206,0,0.65); height: 240px;">
-                    <br><br><br>
-<center>
-                    <li><a href="{% url 'characters' %}" class="footer_text" ><strong>Characters</strong></a></li>
-                    <li><a href="{% url 'contact' %}" class="footer_text"><strong>Contact</strong></a></li>
-</center>
+                <div class="col-lg-4  " style="background-color: #003e66; height: 140px;">
+                    <br>
+                    <center>
+                    <a href="{% url 'characters' %}" class="footer_text" >Characters</a> </br>
+                    <a href="{% url 'contact' %}" class="footer_text">Contact</a>
+                    </center>
 
                 </div>
-                <div class="col-lg-4 " style="background-color: rgba(246,206,0,0.65); height: 240px;">
-                    <br>     <br>     <br>
+                <div class="col-lg-4 " style="background-color:  #003e66; height: 140px;">
+                    <br>
 
-                   <br><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                   <center><a target="_blank" href="https://twitter.com/twitter" class="fa fa-twitter"></a>
-
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                    <a style="margin-left: 10px" target="_blank" href="https://facebook.com/facebook" class="fa fa-facebook"></a></center>
+                   <center>
+                       <a target="_blank" href="https://twitter.com/twitter" class="fa fa-twitter"></a>
+                       <a style="margin-left: 10px" target="_blank" href="https://facebook.com/facebook" class="fa fa-facebook"></a>
+                   </center>
 
 
                 </div>
 
-                <div class="col-lg-4 " style="background-color:rgba(246,206,0,0.65); height:240px;;">
-                    <br><br><br>
-                    <form action="" method="">
+                <div class="col-lg-4 " style="background-color: #003e66; height:140px;;">
+                    <br>
+                    <form action="" method="post" >
                         <center>
                         <div class="form-inline">
                             <input type="email" placeholder="Email" class="form-control" style=" width: 160px; height: 35px;" id="email">
@@ -182,20 +160,15 @@
                     </form>
                 </div>
 
-                <div class="col-lg-12" style="color: #ffffff">
+                <div class="col-lg-12" style="color: #003e66; background-color: white">
                     <center>
                         © 2017 THE SIMPSONS CONSULTING. ALL RIGHTS RESERVED.</center>
-                    <br>
+
                 </div>
             </div>
-
-        </div>
     </div>
+</section>
 
-    <audio id="myAudio" src="../../static/music/sim.mp3" autoplay>
-        <p>If you are reading this, it is because your browser does not support the audio element. </p>
-        <embed src="../../static/music/sim.mp3" width="180" height="90" hidden="true" loop="False" autostart="true"/>
-    </audio>
 
     <!-- Bootstrap'in JavaScript eklentilerini çalıştırabilmemiz için jQuery'yi belgemize dahil etmemiz gerekiyor -->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>

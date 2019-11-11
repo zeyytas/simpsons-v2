@@ -2,13 +2,14 @@
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
+from django.core.exceptions import ObjectDoesNotExist
 from django.core.mail import EmailMessage
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, Http404
 from django.shortcuts import render, redirect
 from django.template.loader import get_template
 from simpsonapp.forms import ContactForm, LoginForm, SignupForm
 
-from simpsonapp.models import Characters
+from simpsonapp.models import Character
 
 
 def login_view(request):
@@ -88,9 +89,19 @@ def contact(request):
     return render(request, 'contact.html', {'form': form_class})
 
 
-def Characters(request):
-    character = Characters.objects.filter(id=request.GET.get('id'))
-    if not request.GET.get('id'):
-        return render(request, 'characters.html', {'chars': character})
+def character(request):
+    if request.GET.get('id'):
+        try:
+
+            character = Character.objects.get(id=request.GET.get('id'))
+            return render(request, 'employees.html', {'character': character})
+        except ObjectDoesNotExist:
+            return Http404
+
     else:
-        return render(request, 'c.html', {'char': character})
+        return render(request, 'employees.html', {'characters': Character.objects.all()})
+
+def subscribe(request):
+    email = request.data.get('email')
+    Client.objects.create()
+

@@ -8,6 +8,7 @@
     -moz-border-radius:75px;
     -webkit-border-radius: 75px;
     width: 150px;
+    opacity: 40%;
 
 }
 
@@ -16,11 +17,9 @@
     background-size:cover;
     -webkit-background-size: cover;-o-background-size: cover;
     background-position: center;
-    height: 240px;
+    height: 440px;
     width:100%;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0 0 0px;
+    opacity: 0.8;
 }
 
 .myBtn{
@@ -79,9 +78,6 @@
     background-color: rgba(251, 251, 251, 0.6);
 }
 
-.backg{
-    background-color: white;
-}
 .backgforprofile{
      background-color: #447e9b;
 
@@ -104,12 +100,19 @@
     background-color: white; }
 
 
-.bg-cover3{
+.image_css{
 
     background-size: cover;
     background-position: center;
-    height:150px;
-    width: 150px;
+    height:200px;
+    width: 200px;
+}
+
+.image_2_css{
+    background-size: cover;
+    background-position: center;
+    height:350px;
+    width: 250px;
 }
 
 
@@ -118,23 +121,37 @@
 }
 
 .footer_text{
-    font-family: "Bell MT";
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    color: #00172f;
 
 }
 
-.baslik {
+.headline {
 
-    font-family: "Calibri Light";
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 42px;
-    color: #001123;
+    color: #428bca;
+    background-color: #003e66;
+    height: 200px;
     }
 
-.yazi{
-    font-family: "Bell MT";
+.headline_text {
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 42px;
+    color: #428bca;
+    }
+
+.sub_headline {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    color: #001f30;
+}
+
+.text_css{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    color: #003e66;
+    color: #001f30
 }
 
 .gorselmap{
@@ -144,26 +161,21 @@
 
 }
 
-/* Style all font awesome icons */
 .fa {
-    padding: 20px;
     font-size: 30px;
-
-
+    width: 60px;
+    height: 60px;
     text-align: center;
     text-decoration: none;
+    border-radius: 50%;
 }
 
-
-/* Facebook */
 .fa-facebook {
-    background: #3B5998;
-    color: white;
-
+  background: #3B5998;
+  color: white;
 }
 
-/* Twitter */
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55ACEE;
+  color: white;
 }
