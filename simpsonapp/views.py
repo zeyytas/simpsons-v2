@@ -101,7 +101,7 @@ def character(request):
     else:
         return render(request, 'employees.html', {'characters': Character.objects.all()})
 
+
 def subscribe(request):
     email = request.data.get('email')
-    Client.objects.create()
 

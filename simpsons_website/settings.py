@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'simpsons_website.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'simpsons',
+            'NAME': 'simpsondb',
             'USER': 'zeyneptas',
             'HOST': 'db',
             'PORT': 5432,
