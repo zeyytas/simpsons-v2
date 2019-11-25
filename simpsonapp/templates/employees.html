@@ -22,7 +22,7 @@
                 <strong> {{ character.name }}</strong><br>
                 {{ character.position }}
             </center>
-            {% if forloop.counter|divisibleby:"1" %}
+            {% if forloop.counter|divisibleby:"2" %}
                 </div>
                 {% if not forloop.last %}
                     <div class="col-md-3 col-xs-12 text_css" style="margin-bottom: 50px;">

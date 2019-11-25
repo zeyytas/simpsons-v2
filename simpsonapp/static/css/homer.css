@@ -162,17 +162,15 @@
 }
 
 .fa {
-    font-size: 30px;
     width: 60px;
     height: 60px;
-    text-align: center;
-    text-decoration: none;
     border-radius: 50%;
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    margin-top: 15px;
+    background: #3B5998;
+    color: white;
 }
 
 .fa-twitter {
