@@ -6,7 +6,7 @@
      </div>
 
     <div class="row">
-    <div class="col-md-12 text_css" style="height: 700px; background-color: white;
+    <div class="col-md-12 text_css" style="height: auto; background-color: white;
     margin-top: 15px; margin-bottom: 30px; margin-left: 30px;" >
 
 
@@ -18,11 +18,11 @@
                 {% endif %}
             <center>
                 <a href="/characters?id={{character.id}}">
-                    <img src="/media/{{ character.image }}" class="image_css"> </img></a><br>
+                    <img src="/media/{{ character.portrait_image }}" class="image_css"> </img></a><br>
                 <strong> {{ character.name }}</strong><br>
                 {{ character.position }}
             </center>
-            {% if forloop.counter|divisibleby:"3" %}
+            {% if forloop.counter|divisibleby:"1" %}
                 </div>
                 {% if not forloop.last %}
                     <div class="col-md-3 col-xs-12 text_css" style="margin-bottom: 50px;">

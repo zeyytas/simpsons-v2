@@ -3,7 +3,7 @@ services:
   db:
     image: postgres
     environment:
-      - POSTGRES_DB=simpsondb
+      - POSTGRES_DB=thesimpsonsdb
       - POSTGRES_USER=zeyneptas
   web:
     build: .

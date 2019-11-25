@@ -33,6 +33,7 @@ urlpatterns = [
     url(r'^characters/(?P<characterid>[0-9]+)/$', views.character, name='character'),
 
     url(r'^contact$', views.contact, name='contact'),
+    url(r'^result$', views.search, name='result'),
 
     url(r'^login/$', views.login_view, name='login'),
     url(r'^signup/$', views.signup_view, name='signup'),

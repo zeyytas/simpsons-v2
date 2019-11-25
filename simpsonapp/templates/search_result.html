@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <center> <img class="img-responsive bg-banner"></center>
+        </div>
+    </div>
+
+    <div class="col-md-12" style="height: 500px; margin-left: 30px">
+
+        {% if queryset != "" %}
+            {% for character in queryset %}
+
+                <a href="/characters/id={{character.id}}">
+                    <li style="margin-top: 20px; font-size: 20px">{{character}}</li></a>
+
+            {% empty %}
+
+                <p style="font-size: 20px; margin-top: 25px;">{{message}}</p>
+            {% endfor %}
+
+        {% elif queryset == "" %}
+
+            <p style="font-size: 20px; margin-top: 25px;">{{warning}}</p>
+
+        {% endif %}
+
+</div>
+
+{% endblock%}

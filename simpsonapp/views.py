@@ -4,12 +4,13 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.mail import EmailMessage
+from django.db.models import Q
 from django.http import HttpResponseRedirect, Http404
 from django.shortcuts import render, redirect
 from django.template.loader import get_template
 from simpsonapp.forms import ContactForm, LoginForm, SignupForm
 
-from simpsonapp.models import Character
+from simpsonapp.models import Character, Client
 
 
 def login_view(request):
@@ -104,4 +105,14 @@ def character(request):
 
 def subscribe(request):
     email = request.data.get('email')
+    Client.objects.create(contact__email=email, contact__is_subscribed=True)
+
+
+def search(request):
+    parameter = request.GET['q']
+    queryset = Character.objects.filter(Q(name__icontains=parameter) | Q(position=parameter) |
+                                     Q(likes__icontains=parameter))
+    print (queryset)
+    return render(request, 'search_result.html', {'message': "We haven't found any data",
+                                                  'warning': "Please write some letters", 'queryset': queryset})
 

@@ -20,7 +20,7 @@ class Contact(models.Model):
 class Client(models.Model):
     company_name = models.CharField(max_length=25, null=True, blank=True)
     country = models.CharField(max_length=25, null=True, blank=True)
-    contact_info = models.ForeignKey(Contact, on_delete=models.PROTECT)
+    contact_info = models.OneToOneField(Contact, on_delete=models.PROTECT, null=True, blank=True)
 
     def __str__(self):
         return self.company_name
@@ -38,12 +38,12 @@ class Project(models.Model):
 
 
 class Character(models.Model):
-    image = ImageField(upload_to=get_image_path, blank=True, null=True)
+    portrait_image = ImageField(upload_to=get_image_path, blank=True, null=True)
     image_2 = ImageField(upload_to=get_image_path, blank=True, null=False)
     name = models.CharField(max_length=30)
     position = models.CharField(max_length=25)
     birthday = models.DateField(null=True)
-    contact_info = models.ForeignKey(Contact, on_delete=models.PROTECT)
+    contact_info = models.OneToOneField(Contact, on_delete=models.PROTECT, null=True, blank=True)
     likes = models.TextField(null=True, max_length=600)
 
     projects = models.ForeignKey(Project, on_delete=models.PROTECT, null=True, blank=True)

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c5f61f6-1006-403d-b715-c2055b4f7f72" name="Default Changelist" comment="" />
+    <list default="true" id="5c5f61f6-1006-403d-b715-c2055b4f7f72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/1/bart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/1/bart_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/2/Edna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/2/edna_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpsonapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpsonapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpsonapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpsonapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpsonapp/templates/authentication.html" beforeDir="false" afterPath="$PROJECT_DIR$/simpsonapp/templates/authentication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpsonapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/simpsonapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpsonapp/templates/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/simpsonapp/templates/employees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpsonapp/templates/introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/simpsonapp/templates/introduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpsonapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpsonapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpsons_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpsons_website/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpsons_website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpsons_website/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +91,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="7" />
-          <entry key="css" value="5" />
-          <entry key="gitignore" value="3" />
-          <entry key="html" value="28" />
-          <entry key="py" value="81" />
+          <entry key="Dockerfile" value="8" />
+          <entry key="css" value="6" />
+          <entry key="gitignore" value="4" />
+          <entry key="html" value="35" />
+          <entry key="py" value="90" />
           <entry key="sql" value="3" />
           <entry key="txt" value="4" />
           <entry key="yaml" value="5" />
@@ -85,11 +103,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="Dockerfile" value="7" />
-          <entry key="HTML" value="28" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="81" />
+          <entry key="CSS" value="6" />
+          <entry key="Dockerfile" value="8" />
+          <entry key="HTML" value="35" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="90" />
           <entry key="Scratch" value="3" />
           <entry key="YAML" value="5" />
         </counts>
@@ -98,8 +116,8 @@
         <counts>
           <entry key="Dockerfile" value="8" />
           <entry key="css" value="177" />
-          <entry key="html" value="955" />
-          <entry key="py" value="1977" />
+          <entry key="html" value="1056" />
+          <entry key="py" value="2294" />
           <entry key="txt" value="14" />
           <entry key="yaml" value="48" />
         </counts>
@@ -108,9 +126,9 @@
         <counts>
           <entry key="CSS" value="177" />
           <entry key="Dockerfile" value="8" />
-          <entry key="HTML" value="955" />
+          <entry key="HTML" value="1056" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="1977" />
+          <entry key="Python" value="2294" />
           <entry key="YAML" value="48" />
         </counts>
       </usages-collector>
@@ -121,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simpsonapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
+            <state relative-caret-position="675">
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="16" />
               <folding>
                 <element signature="e#1#29#0" expanded="true" />
               </folding>
@@ -131,79 +149,103 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpsons_website/settings.py">
+        <entry file="file://$PROJECT_DIR$/simpsonapp/templates/employees.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/05daddd1-2da4-46b8-a7e1-48355b32a6e0/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpsonapp/migrations/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpsonapp/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="81" column="70" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpsonapp/templates/authentication.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" column="81" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpsonapp/templates/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpsonapp/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="15">
+              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding>
+                <element signature="e#104#128#0#HTML" expanded="true" />
+                <element signature="e#227#336#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="253" column="63" selection-start-line="253" selection-start-column="63" selection-end-line="253" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpsonapp/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simpsonapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="618">
+              <caret line="112" column="94" selection-start-line="112" selection-start-column="94" selection-end-line="112" selection-end-column="94" />
               <folding>
                 <element signature="e#1#60#0" expanded="true" />
-                <marker date="1574669259964" expanded="true" signature="1243:1971" ph="..." />
-                <marker date="1574669259964" expanded="true" signature="2124:2127" ph="..." />
+                <marker date="1574680514503" expanded="true" signature="1282:2010" ph="..." />
+                <marker date="1574680514503" expanded="true" signature="2163:2166" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpsonapp/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="129" column="46" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#center#0;n#div#1;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpsonapp/static/css/homer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1130">
+              <caret line="169" column="10" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpsons_website/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpsonapp/templates/search_result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <element signature="e#184#225#0#HTML" expanded="true" />
+                <element signature="e#276#318#0#HTML" expanded="true" />
+                <element signature="e#386#428#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpsonapp/templates/main_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -242,6 +284,12 @@
       <find>subscr</find>
       <find>submit</find>
       <find>login</find>
+      <find>image</find>
+      <find>result</find>
+      <find>ALL RIGHTS RESERVED.</find>
+      <find>border</find>
+      <find>face</find>
+      <find>.row</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -268,22 +316,25 @@
         <option value="$PROJECT_DIR$/employees/models.py" />
         <option value="$PROJECT_DIR$/simpsonapp/templates/contact_form.html" />
         <option value="$PROJECT_DIR$/simpsonapp/templates/login.html" />
-        <option value="$PROJECT_DIR$/simpsonapp/admin.py" />
         <option value="$PROJECT_DIR$/simpsonapp/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/simpsonapp/urls.py" />
-        <option value="$PROJECT_DIR$/simpsons_website/urls.py" />
         <option value="$PROJECT_DIR$/simpsonapp/static/css/homer.css" />
-        <option value="$PROJECT_DIR$/simpsonapp/templates/employees.html" />
         <option value="$PROJECT_DIR$/simpsonapp/templates/main_page.html" />
         <option value="$PROJECT_DIR$/simpsonapp/forms.py" />
-        <option value="$PROJECT_DIR$/simpsonapp/models.py" />
         <option value="$PROJECT_DIR$/simpsonapp/templates/contact.html" />
-        <option value="$PROJECT_DIR$/simpsonapp/templates/base.html" />
-        <option value="$PROJECT_DIR$/simpsonapp/templates/authentication.html" />
-        <option value="$PROJECT_DIR$/docker-compose.yaml" />
-        <option value="$PROJECT_DIR$/simpsons_website/settings.py" />
         <option value="$PROJECT_DIR$/simpsonapp/migrations/__init__.py" />
+        <option value="$PROJECT_DIR$/simpsons_website/settings.py" />
+        <option value="$PROJECT_DIR$/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/simpsonapp/templates/authentication.html" />
+        <option value="$PROJECT_DIR$/simpsonapp/admin.py" />
+        <option value="$PROJECT_DIR$/simpsonapp/models.py" />
+        <option value="$PROJECT_DIR$/simpsons_website/urls.py" />
         <option value="$PROJECT_DIR$/simpsonapp/views.py" />
+        <option value="$PROJECT_DIR$/simpsonapp/templates/introduction.html" />
+        <option value="$PROJECT_DIR$/simpsonapp/templates/search_result.html" />
+        <option value="$PROJECT_DIR$/simpsonapp/templates/base.html" />
+        <option value="$PROJECT_DIR$/simpsonapp/templates/employees.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -316,12 +367,13 @@
             <path>
               <item name="simpsons_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="simpsons_website" type="462c0819:PsiDirectoryNode" />
-              <item name="photos" type="462c0819:PsiDirectoryNode" />
+              <item name="simpsonapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simpsons_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="simpsons_website" type="462c0819:PsiDirectoryNode" />
               <item name="simpsonapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simpsons_website" type="b2602c69:ProjectViewProjectNode" />
@@ -480,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simpsonapp/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="753">
@@ -539,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -576,48 +614,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simpsonapp/migrations/0002_company_logo.py" />
     <entry file="file://$PROJECT_DIR$/simpsonapp/migrations/0003_auto_20191111_0842.py" />
-    <entry file="file://$PROJECT_DIR$/simpsonapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpsonapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/employees.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/main_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpsonapp/static/css/homer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="144" column="13" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpsons_website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simpsonapp/migrations/0001_initial.py" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -626,52 +622,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="253" column="63" selection-start-line="253" selection-start-column="63" selection-end-line="253" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d1fde2af-ec71-4c25-a886-9729040025b7/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpsonapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
-          <folding>
-            <element signature="e#1#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/05daddd1-2da4-46b8-a7e1-48355b32a6e0/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpsonapp/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="70" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/authentication.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="81" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simpsonapp/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -687,22 +639,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/05daddd1-2da4-46b8-a7e1-48355b32a6e0/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simpsons_website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+        <state relative-caret-position="292">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/authentication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="65" column="70" selection-start-line="65" selection-start-column="70" selection-end-line="65" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsons_website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="16" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simpsonapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="618">
+          <caret line="112" column="94" selection-start-line="112" selection-start-column="94" selection-end-line="112" selection-end-column="94" />
           <folding>
             <element signature="e#1#60#0" expanded="true" />
-            <marker date="1574669259964" expanded="true" signature="1243:1971" ph="..." />
-            <marker date="1574669259964" expanded="true" signature="2124:2127" ph="..." />
+            <marker date="1574680514503" expanded="true" signature="1282:2010" ph="..." />
+            <marker date="1574680514503" expanded="true" signature="2163:2166" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/search_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#184#225#0#HTML" expanded="true" />
+            <element signature="e#276#318#0#HTML" expanded="true" />
+            <element signature="e#386#428#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/static/css/homer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1130">
+          <caret line="169" column="10" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="129" column="46" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#center#0;n#div#1;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpsonapp/templates/employees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding>
+            <element signature="e#104#128#0#HTML" expanded="true" />
+            <element signature="e#227#336#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="253" column="63" selection-start-line="253" selection-start-column="63" selection-end-line="253" selection-end-column="63" />
         </state>
       </provider>
     </entry>
